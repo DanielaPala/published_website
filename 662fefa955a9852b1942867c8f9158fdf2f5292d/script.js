@@ -1,5 +1,5 @@
 const checkbox = document.querySelector(".menu-toggle input");
-const menuVoices = document.querySelectorAll("#menu li a");
+const menuVoices = document.querySelectorAll(".header-menu li a");
 
 menuVoices.forEach((i) => {
   i.addEventListener("click", () => {
